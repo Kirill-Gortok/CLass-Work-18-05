@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+         let body = document.body
+        body.style.backgroundColor = 'green'
+
+        let divCircle = document.createElement('div');
+        divCircle.style.backgroundColor = 'white';
+        divCircle.style.width = '500px';
+        divCircle.style.height = '600px';
+        divCircle.style.marginLeft = '470px';
+        divCircle.style.marginTop = '120px'
+        body.appendChild(divCircle)
+
+        let divText = document.createElement('div');
+        divText.style.width = '350px'
+        divText.style.fontSize = '30px'
+        divText.style.color = 'black'
+        divText.style.marginLeft = '45px'
+        divText.innerText = 'Colorlib Contact Form'
+        divCircle.appendChild(divText)
+
+        let divText1 = document.createElement('div')
+        divText1.innerText = 'Contact us for custom quote'
+        divText1.style.fontSize = '10px'
+        divText1.style.marginTop = '20px'
+        divText.appendChild(divText1)
+
+        let divPom = document.createElement('div')
+        divText1.appendChild(divPom)
+
+        let input = document.createElement('input');
+        input.type = 'text'
+        input.placeholder = 'Your name' 
+        input.style.marginTop = '30px'
+        input.style.marginLeft = '2px'
+        input.style.width = '370px'
+        input.style.padding = '10px'
+        divPom.appendChild(input)
+
+        let divPom2 = document.createElement('div')
+        divText.appendChild(divPom2)
+
+        let inputName = document.createElement('input');
+        inputName.type = 'text'
+        inputName.placeholder = 'Your Email Adress' 
+        inputName.style.marginTop = '30px'
+        inputName.style.marginLeft = '2px'
+        inputName.style.width = '370px'
+        inputName.style.padding = '10px'
+        divPom2.appendChild(inputName)
+
+        let divNomer = document.createElement('div')
+        divPom2.appendChild(divNomer)
+
+        let inputAsw = document.createElement('input')
+        inputAsw.type = 'text'
+        inputAsw.placeholder = 'Your Phone Number (optional)'
+        inputAsw.style.marginTop = '35px'
+        inputAsw.style.width = '370px'
+        inputAsw.style.padding = '10px'
+        divNomer.appendChild(inputAsw)
+
+        let divKon = document.createElement('div')
+        divNomer.appendChild(divKon)
+        
+        let inputWeb = document.createElement('input')
+        inputWeb.type = 'text'
+        inputWeb.style.marginTop = '35px'
+        inputWeb.placeholder = 'Your Web-Site (optional)'
+        inputWeb.style.width = '370px'
+        inputWeb.style.padding = '10px'
+        divKon.appendChild(inputWeb)
+
+        let divTp = document.createElement('div')
+        divKon.appendChild(divTp)
+
+        let inputMes = document.createElement('input')
+        inputMes.type = 'text'
+        inputMes.placeholder = 'Type your messege her' 
+        inputMes.style.marginTop = '35px'
+        inputMes.style.padding = '10px'
+        inputMes.style.width = '370px'
+        inputMes.style.height = '70px'
+        divTp.appendChild(inputMes)
+
+        let divKnop = document.createElement('div')
+        divTp.appendChild(divKnop)
+
+        let divKn = document.createElement('div')
+        divKn.innerText = 'Submit'
+        divKn.marginTop = '45px'
+        divKn.style.width = '200px'
+        divKn.style.height = '20px'
+        divKn.style.backgroundColor = 'green'
+        divKn.style.fontSize = '10px'
+        divKnop.appendChild(divKn)
+
+    </script>
+</body>
+</html>
